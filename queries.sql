@@ -62,10 +62,10 @@
 -- Problem 6
 -- Find the product that was sold the most times
 
--- SELECT ProductID, COUNT(Quantity) 
+-- SELECT DISTINCT(ProductID), COUNT(Quantity) 
 -- FROM Sales
 -- GROUP BY ProductID
--- ORDER BY COUNT(Quantity) DESC;
+-- ORDER BY COUNT(Quantity) ASC;
 
 -- Problem 7
 -- Using a subquery, find all products that have a price higher than the average price for all products
